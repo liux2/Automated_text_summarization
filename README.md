@@ -29,18 +29,15 @@ The goal of this project is to analyze the talking session records and find the 
     * [datasketch](https://github.com/ekzhu/datasketch): use `pip3 install datasketch -U`.
     * [graphviz](https://pypi.org/project/graphviz/): use `pip3 install graphviz`.
     * Then, use `pip3 install pytextrank` to install `pytextrank`.
-
 2. Besides the python libraries listed above, you also have to install java jdk:
   1. Update the packages: `sudo apt update`.
   2. Install Ubuntu default java jdk: `sudo apt install default-jdk`.
   3. You can verify the version by using `java -version`.
-
 3. And [Stanford NER Tagger](https://nlp.stanford.edu/software/CRF-NER.shtml).
   1. Download Stanford Named Entity Recognizer version x.x.x.
   2. Create `stanford_ner/` directory under `trained_model/`.
   3. Extract `classifiers/` and `stanford-ner.jar`, and put them into `stanford_ner/`.
   4. Make sure the path of the Stanford NER Tagger files are the same with the path in `src/named_entity.py` file.
-
 4. To get the emotions of the text, we need to pickle the training models.
 
 ## Library Modifications
