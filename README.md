@@ -39,6 +39,10 @@ The goal of this project is to analyze the talking session records and find the 
     3. Extract `classifiers/` and `stanford-ner.jar`, and put them into `stanford_ner/`.
     4. Make sure the path of the Stanford NER Tagger files are the same with the path in `src/named_entity.py` file.
 4. To get the emotions of the text, we need to pickle the training models.
+    1. Go to `experimental_functions/`, select any one of the directory. Or you can improve the sentiment analysis models.
+    2. Make sure there are `positive.txt` and `negative.txt` under `short_reviews/`.
+    3. Go to `train_classifier.py`, make sure the path are correct. Run the program.
+    4. Move the `pickled_algos/` directory to `trained_model/`
 
 ## Library Modifications
 
