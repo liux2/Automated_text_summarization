@@ -12,6 +12,7 @@ __pycache__/
 # Ignore all input and output
 input_files/
 output_files/
+Data_Files/stanford_ner/
 # other files
 graph.dot
 src/*.txt
