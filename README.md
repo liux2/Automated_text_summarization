@@ -21,14 +21,14 @@ The goal of this project is to analyze the talking session records and find the 
 1. The example shown below uses Linux, python3, and pip3. You can add sudo in front for permission.
   1. [Numpy](https://pypi.org/project/numpy/): `pip3 install -U numpy`
   2. [NLTK](https://www.nltk.org/install.html): `pip3 install -U nltk`.
-    * [NLTK datas](https://www.nltk.org/data.html) After installed NLTK, type `python3` then `nltk.download()`. You will see a window pop out, you can choose what package to install. If you have enough storage, you can choose all packages.q
+    - [NLTK datas](https://www.nltk.org/data.html) After installed NLTK, type `python3` then `nltk.download()`. You will see a window pop out, you can choose what package to install. If you have enough storage, you can choose all packages.q
   3. [scikit-learn](https://scikit-learn.org/stable/install.html): `pip3 install -U scikit-learn`
   4. Four dependencies for [pytextrank](https://github.com/ceteri/pytextrank):
-    * [spaCy](https://spacy.io/usage/): use `pip3 install -U spacy`, then, use `python3 -m spacy download en` to install English language models.
-    * [NetworkX](https://networkx.github.io/documentation/stable/install.html):  `pip3 install networkx`.
-    * [datasketch](https://github.com/ekzhu/datasketch): use `pip3 install datasketch -U`.
-    * [graphviz](https://pypi.org/project/graphviz/): use `pip3 install graphviz`.
-    * Then, use `pip3 install pytextrank` to install `pytextrank`.
+    - [spaCy](https://spacy.io/usage/): use `pip3 install -U spacy`, then, use `python3 -m spacy download en` to install English language models.
+    - [NetworkX](https://networkx.github.io/documentation/stable/install.html):  `pip3 install networkx`.
+    - [datasketch](https://github.com/ekzhu/datasketch): use `pip3 install datasketch -U`.
+    - [graphviz](https://pypi.org/project/graphviz/): use `pip3 install graphviz`.
+    - Then, use `pip3 install pytextrank` to install `pytextrank`.
 2. Besides the python libraries listed above, you also have to install java jdk:
   1. Update the packages: `sudo apt update`.
   2. Install Ubuntu default java jdk: `sudo apt install default-jdk`.
