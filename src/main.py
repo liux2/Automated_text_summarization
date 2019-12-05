@@ -96,7 +96,7 @@ if __name__ == '__main__':
     TEXT = WORD_NAMESPACE + 't'
 
     value_list = []
-    special_signs = "Data_Files/special_signs.txt"
+    special_signs = "trained_modal/special_signs.txt"
 
     # create path for a general sum markdown
     general_sum = args.output + "/" + "general_sumarization.md"

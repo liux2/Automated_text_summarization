@@ -4,8 +4,8 @@ from nltk.tag import StanfordNERTagger
 from nltk.tokenize import word_tokenize
 
 def orgs(text):
-	st = StanfordNERTagger('Data_Files/stanford_ner/classifiers/english.all.3class.distsim.crf.ser.gz',
-						   'Data_Files/stanford_ner/stanford-ner.jar',
+	st = StanfordNERTagger('trained_modal/stanford_ner/classifiers/english.all.3class.distsim.crf.ser.gz',
+						   'trained_modal/stanford_ner/stanford-ner.jar',
 						   encoding='utf-8')
 
 	tokenized_text = word_tokenize(text)
