@@ -1,5 +1,8 @@
 # Ignore Mac system files
 .DS_store
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*$py.class
 # Ignore all json files
 *.json
 # Ignore all docx files
@@ -7,8 +10,8 @@
 # Ignore all xlsx files
 *.xlsx
 # Ignore all input and output
-/input_files/*
-/output_files/*
+input_files/
+output_files/
 # other files
 graph.dot
-/src/*.txt
+src/*.txt
