@@ -1,0 +1,14 @@
+# Ignore Mac system files
+.DS_store
+# Ignore all json files
+*.json
+# Ignore all docx files
+*.docx
+# Ignore all xlsx files
+*.xlsx
+# Ignore all input and output
+/input_files/*
+/output_files/*
+# other files
+graph.dot
+/src/*.txt
